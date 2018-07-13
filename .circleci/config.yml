@@ -1,0 +1,29 @@
+version: 2
+jobs:
+  build:
+    machine: true
+    steps:
+      - checkout
+      - run: |
+          docker login -u $DOCKER_USER -p $DOCKER_PASS
+      - run: docker image build -t dscythe/tmga-api  .
+      - run: docker push dscythe/tmga-api
+
+  deploy:
+    machine: true
+    steps:
+      - checkout
+      - run: |
+          ssh centos@54.179.187.112 \
+            'sudo docker pull dscythe/tmga-api && \
+             sudo docker container stop tmga_api || true && \
+             sudo docker container run --rm -ditp 3000:3000 --name tmga_api dscythe/tmga-api'
+
+workflows:
+  version: 2
+  build_and_deploy:
+    jobs:
+      - build
+      - deploy:
+          requires:
+            - build
