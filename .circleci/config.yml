@@ -17,7 +17,17 @@ jobs:
           ssh centos@54.179.187.112 \
             'sudo docker pull dscythe/tmga-api && \
              sudo docker container stop tmga_api || true && \
-             sudo docker container run --rm -ditp 3000:3000 --name tmga_api dscythe/tmga-api'
+             sudo docker container run --rm \
+             -ditp 3000:3000 \
+             --name tmga_api \
+             -e NODE_ENV=production \
+             -e PORT=$PORT \
+             -e DB_PORT=$DB_PORT \
+             -e DB_HOST=$DB_HOST \
+             -e DB_USER=$DB_USER \
+             -e DB_PASS=$DB_PASS \
+             -e DB_DATABASE=$DB_DATABASE \
+             dscythe/tmga-api'
 
 workflows:
   version: 2
