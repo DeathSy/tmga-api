@@ -1,1 +1,6 @@
-{}
+{
+  "mongodbDS": {
+    "name": "mongodbDS",
+    "connector": "mongodb"
+  }
+}
