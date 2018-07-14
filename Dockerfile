@@ -6,10 +6,10 @@ WORKDIR /app/tmga-api
 COPY . .
 
 ENV PATH /app/tmga-api/node_modules/.bin:$PATH
-ENV NODE_ENV=production
-ENV PORT=3000
 
 ADD package.json /app/tmga-api/package.json
 RUN npm install
+
+EXPOSE 3000
 
 CMD [ "npm", "start" ]
