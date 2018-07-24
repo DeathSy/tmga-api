@@ -16,7 +16,7 @@ jobs:
       - run: |
           ssh centos@54.179.187.112 \
              'sudo docker pull dscythe/tmga-api && \
-             sudo docker container stop -f tmga_api || true && \
+             sudo docker container rm -f tmga_api || true && \
              sudo docker container run -ditp --rm 4000:3000 --name tmga_api -e NODE_ENV=production dscythe/tmga-api'
 
 workflows:
