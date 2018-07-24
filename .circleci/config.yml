@@ -18,7 +18,7 @@ jobs:
              sudo docker pull dscythe/tmga-api && \
              sudo docker container stop tmga_api || true && \
              sudo docker container run \
-             -ditp 3000:3000 \
+             -ditp 4000:3000 \
              --name tmga_api \
              -e NODE_ENV=production \
              -e PORT=$PORT \
