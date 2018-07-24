@@ -3,10 +3,10 @@
 module.exports = {
   mongodbDS: {
     connector: 'mongodb',
-    host: process.env.DB_HOST,
-    port: process.env.DB_PORT || 27017,
-    user: process.env.DB_USER,
-    password: process.env.DB_PASSWORD,
-    database: process.env.DB_DATABASE,
+    host: '57.179.187.112',
+    port: 27017,
+    user: 'tmga-user',
+    password: 'tmga-pass',
+    database: 'tmgaDB',
   },
 };
