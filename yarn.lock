@@ -2121,6 +2121,10 @@ loopback-swagger@^5.0.0:
     lodash "^4.17.2"
     strong-globalize "^4.1.1"
 
+loopback3-xtotalcount@^0.1.2:
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/loopback3-xtotalcount/-/loopback3-xtotalcount-0.1.2.tgz#e92f62e5e4ee5039aaf288e4df1103cfbb9bc637"
+
 loopback@^3.19.0:
   version "3.21.0"
   resolved "https://registry.yarnpkg.com/loopback/-/loopback-3.21.0.tgz#963cf53ad6a88bcd5e38789d3a05adbfed3442ba"
