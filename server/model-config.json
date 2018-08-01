@@ -21,5 +21,13 @@
   "Room": {
     "dataSource": "mongodbDS",
     "public": true
+  },
+  "Subject": {
+    "dataSource": "mongodbDS",
+    "public": true
+  },
+  "SubjectFormat": {
+    "dataSource": "mongodbDS",
+    "public": true
   }
 }
