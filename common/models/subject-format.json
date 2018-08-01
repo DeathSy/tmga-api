@@ -6,6 +6,9 @@
   "options": {
     "validateUpsert": false
   },
+  "mixins": {
+    "TimeStamp": true
+  },
   "properties": {
     "name": {
       "type": "string",
@@ -13,10 +16,18 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "rooms": {
+      "type": "hasMany",
+      "model": "Room",
+      "foreignKey": ""
+    },
+    "subjects": {
+      "type": "hasAndBelongsToMany",
+      "model": "Subject",
+      "foreignKey": ""
+    }
+  },
   "acls": [],
-  "methods": {},
-  "mixins": {
-    "TimeStamp": true
-  }
+  "methods": {}
 }

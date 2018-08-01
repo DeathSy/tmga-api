@@ -24,7 +24,13 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "type": {
+      "type": "belongsTo",
+      "model": "SubjectFormat",
+      "foreignKey": ""
+    }
+  },
   "acls": [],
   "methods": {}
 }
