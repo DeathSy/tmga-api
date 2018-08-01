@@ -29,5 +29,9 @@
   "SubjectFormat": {
     "dataSource": "mongodbDS",
     "public": true
+  },
+  "TimeSlot": {
+    "dataSource": "mongodbDS",
+    "public": true
   }
 }
