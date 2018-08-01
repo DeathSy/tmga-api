@@ -17,5 +17,9 @@
   "Account": {
     "dataSource": "mongodbDS",
     "public": true
+  },
+  "Room": {
+    "dataSource": "mongodbDS",
+    "public": true
   }
 }
