@@ -33,5 +33,9 @@
   "TimeSlot": {
     "dataSource": "mongodbDS",
     "public": true
+  },
+  "Lecturer": {
+    "dataSource": "mongodbDS",
+    "public": true
   }
 }
