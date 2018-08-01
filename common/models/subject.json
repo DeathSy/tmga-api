@@ -35,6 +35,11 @@
       "type": "hasAndBelongsToMany",
       "model": "SubjectFormat",
       "foreignKey": ""
+    },
+    "prerequisite": {
+      "type": "hasAndBelongsToMany",
+      "model": "Subject",
+      "foreignKey": ""
     }
   },
   "acls": [],
