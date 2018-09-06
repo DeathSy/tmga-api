@@ -27,6 +27,10 @@
     "isCompulsory": {
       "type": "boolean",
       "default": true
+    },
+    "year": {
+      "type": "array",
+      "default": ["58"]
     }
   },
   "validations": [],
