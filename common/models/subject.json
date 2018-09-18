@@ -30,7 +30,7 @@
     },
     "year": {
       "type": "array",
-      "default": ["58"]
+      "default": ["1"]
     }
   },
   "validations": [],
