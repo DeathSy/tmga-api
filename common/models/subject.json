@@ -36,8 +36,8 @@
       "model": "Subject",
       "foreignKey": ""
     },
-    "subjectFormats": {
-      "type": "hasAndBelongsToMany",
+    "subjectFormat": {
+      "type": "belongsTo",
       "model": "SubjectFormat",
       "foreignKey": ""
     }

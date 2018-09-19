@@ -23,7 +23,7 @@
       "foreignKey": ""
     },
     "subjects": {
-      "type": "hasAndBelongsToMany",
+      "type": "hasMany",
       "model": "Subject",
       "foreignKey": ""
     }
