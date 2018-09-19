@@ -1,0 +1,29 @@
+{
+  "name": "subjectSection",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "mixins": {
+    "TimeStamp": true
+  },
+  "properties": {
+    "sections": {
+      "type": [
+        "object"
+      ],
+      "required": true,
+      "default": {
+        "name": "string",
+        "subjectId": "id",
+        "type": "string",
+        "lecturers": []
+      }
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
