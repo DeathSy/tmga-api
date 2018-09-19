@@ -38,7 +38,7 @@
     "dataSource": "mongodbDS",
     "public": true
   },
-  "subjectSection": {
+  "SubjectSection": {
     "dataSource": "mongodbDS",
     "public": true
   }
