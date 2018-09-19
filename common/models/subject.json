@@ -24,19 +24,21 @@
     },
     "students": {
       "type": "array",
-      "default": ["1st year"]
+      "default": [
+        "1st year"
+      ]
     }
   },
   "validations": [],
   "relations": {
-    "formats": {
-      "type": "hasAndBelongsToMany",
-      "model": "SubjectFormat",
-      "foreignKey": ""
-    },
     "prerequisite": {
       "type": "hasAndBelongsToMany",
       "model": "Subject",
+      "foreignKey": ""
+    },
+    "subjectFormats": {
+      "type": "hasAndBelongsToMany",
+      "model": "SubjectFormat",
       "foreignKey": ""
     }
   },
