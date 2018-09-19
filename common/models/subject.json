@@ -28,9 +28,9 @@
       "type": "boolean",
       "default": true
     },
-    "year": {
+    "students": {
       "type": "array",
-      "default": ["1"]
+      "default": [{ "year": "1st year" }]
     }
   },
   "validations": [],
