@@ -38,11 +38,6 @@
       "type": "hasAndBelongsToMany",
       "model": "Subject",
       "foreignKey": ""
-    },
-    "lecturers": {
-      "type": "hasAndBelongsToMany",
-      "model": "Lecturer",
-      "foreignKey": ""
     }
   },
   "acls": [],
