@@ -18,7 +18,8 @@
         "name": "string",
         "subjectId": "id",
         "type": "string",
-        "lecturers": []
+        "lecturers": [],
+        "time": 60
       }
     }
   },
