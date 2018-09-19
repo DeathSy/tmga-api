@@ -18,19 +18,13 @@
       "type": "string",
       "required": true
     },
-    "sectionAmount": {
-      "type": "number"
-    },
-    "studentsPerSection": {
-      "type": "number"
-    },
-    "isCompulsory": {
+    "isRequired": {
       "type": "boolean",
       "default": true
     },
     "students": {
       "type": "array",
-      "default": [{ "year": "1st year" }]
+      "default": ["1st year"]
     }
   },
   "validations": [],
