@@ -41,5 +41,9 @@
   "SubjectSection": {
     "dataSource": "mongodbDS",
     "public": true
+  },
+  "student": {
+    "dataSource": "mongodbDS",
+    "public": true
   }
 }
