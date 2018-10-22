@@ -49,5 +49,9 @@
   "Contraint": {
     "dataSource": "mongodbDS",
     "public": true
+  },
+  "FixedSubject": {
+    "dataSource": "mongodbDS",
+    "public": true
   }
 }
