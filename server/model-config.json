@@ -45,5 +45,9 @@
   "student": {
     "dataSource": "mongodbDS",
     "public": true
+  },
+  "Contraint": {
+    "dataSource": "mongodbDS",
+    "public": true
   }
 }

@@ -8,9 +8,6 @@
   "mixins": {
     "TimeStamp": true
   },
-  "mixins": {
-    "TimeStamp": true
-  },
   "properties": {
     "sections": {
       "type": [
