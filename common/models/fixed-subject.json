@@ -1,5 +1,5 @@
 {
-  "name": "FixSubject",
+  "name": "FixedSubject",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
