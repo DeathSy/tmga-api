@@ -16,7 +16,18 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "startTime": {
+      "type": "belongsTo",
+      "model": "TimeSlot",
+      "foreignKey": ""
+    },
+    "endTime": {
+      "type": "belongsTo",
+      "model": "TimeSlot",
+      "foreignKey": ""
+    }
+  },
   "acls": [],
   "methods": {}
 }
