@@ -12,7 +12,33 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "room": {
+      "type": "belongsTo",
+      "model": "Room",
+      "foreignKey": ""
+    },
+    "subject": {
+      "type": "belongsTo",
+      "model": "Subject",
+      "foreignKey": ""
+    },
+    "startTime": {
+      "type": "belongsTo",
+      "model": "TimeSlot",
+      "foreignKey": ""
+    },
+    "endTime": {
+      "type": "belongsTo",
+      "model": "TimeSlot",
+      "foreignKey": ""
+    },
+    "lecturer": {
+      "type": "belongsTo",
+      "model": "Lecturer",
+      "foreignKey": ""
+    }
+  },
   "acls": [],
   "methods": {}
 }
