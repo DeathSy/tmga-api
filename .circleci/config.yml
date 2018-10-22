@@ -16,7 +16,7 @@ jobs:
       - run: |
           ssh centos@54.179.187.112 \
              'sudo docker pull dscythe/tmga-api && \
-             sudo docker system prune -f \
+             sudo docker system prune -f &&\
              sudo docker container rm -f tmga_api || true && \
              sudo docker container run \
              -e NODE_ENV=production \
