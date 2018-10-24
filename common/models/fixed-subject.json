@@ -13,6 +13,12 @@
     "name": {
       "type": "string",
       "required": true
+    },
+    "students": {
+      "type": "array",
+      "default": [
+        "1st year"
+      ]
     }
   },
   "validations": [],
