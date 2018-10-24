@@ -3,7 +3,10 @@
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
-    "validateUpsert": true
+    "validateUpsert": false
+  },
+  "mixins": {
+    "TimeStamp": true
   },
   "properties": {
     "code": {
@@ -14,11 +17,13 @@
       "type": "string",
       "required": true
     },
+    "day": {
+      "type": "string",
+      "required": true
+    },
     "students": {
       "type": "array",
-      "default": [
-        "1st year"
-      ]
+      "default": ["1st year"]
     }
   },
   "validations": [],
