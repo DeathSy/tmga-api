@@ -46,7 +46,7 @@
     "dataSource": "mongodbDS",
     "public": true
   },
-  "Contraint": {
+  "Constrain": {
     "dataSource": "mongodbDS",
     "public": true
   },

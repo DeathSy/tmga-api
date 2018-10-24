@@ -1,5 +1,5 @@
 {
-  "name": "Contraint",
+  "name": "Constrain",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
