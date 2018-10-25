@@ -12,6 +12,11 @@
     "wants": {
       "type": "boolean",
       "required": true
+    },
+    "day": {
+      "type": [
+        "string"
+      ]
     }
   },
   "validations": [],
