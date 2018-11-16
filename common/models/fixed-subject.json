@@ -9,21 +9,9 @@
     "TimeStamp": true
   },
   "properties": {
-    "code": {
-      "type": "string",
-      "required": true
-    },
-    "name": {
-      "type": "string",
-      "required": true
-    },
     "day": {
       "type": "string",
       "required": true
-    },
-    "students": {
-      "type": "array",
-      "default": ["1st year"]
     }
   },
   "validations": [],
@@ -36,6 +24,11 @@
     "endTime": {
       "type": "belongsTo",
       "model": "TimeSlot",
+      "foreignKey": ""
+    },
+    "subject": {
+      "type": "belongsTo",
+      "model": "Subejct",
       "foreignKey": ""
     }
   },

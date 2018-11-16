@@ -40,6 +40,11 @@
       "type": "belongsTo",
       "model": "SubjectFormat",
       "foreignKey": ""
+    },
+    "fixedSubject": {
+      "type": "hasMany",
+      "mode": "FixedSubject",
+      "foreignKey": ""
     }
   },
   "acls": [],
