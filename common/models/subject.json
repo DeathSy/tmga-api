@@ -43,7 +43,7 @@
     },
     "fixedSubject": {
       "type": "hasMany",
-      "mode": "FixedSubject",
+      "model": "FixedSubject",
       "foreignKey": ""
     }
   },

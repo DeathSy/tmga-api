@@ -28,7 +28,7 @@
     },
     "subject": {
       "type": "belongsTo",
-      "model": "Subejct",
+      "model": "Subject",
       "foreignKey": ""
     }
   },
